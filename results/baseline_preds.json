@@ -1,0 +1,702 @@
+[
+  {
+    "i": 0,
+    "ticket": "Cho mình hỏi, mình đặt chuột không dây mã đơn VN232232. Cho tôi trả lại. Gấp. Shop hỗ trợ tốt.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "cao",
+      "product": "chuột không dây",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt chuột không dây mã đơn VN232232 và nhận trả lại cũng là một trải nghiệm thú vị. Dưới đây là các bước chi tiết để bạn thực hiện và nhận được tài khoản này: ### 1. Chuẩn bị trước * **Mã đơn:** VN232232 (Đây là mã đơn của bạn). * **Tên tài khoản:** Bạn cần tạo một tên tài khoản riêng biệt (ví dụ: `VN232232-User`). * **Số điện thoại:** Để nhận tài khoản, bạn cần nhập số điện thoại vào phần \"Số điện thoại\" trong giao diện đăng ký. * **Địa chỉ:** Nhập địa chỉ của bạn vào phần \"Địa chỉ\".",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"chuột không dây\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 1,
+    "ticket": "Shop ơi, mình đặt ốp lưng điện thoại mã đơn VN812931. Hoàn tiền. Sớm nhé. Bực mình.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, đây là một số lưu ý quan trọng khi xử lý việc hoàn tiền (refund) cho các sản phẩm điện thoại như ốp lưng: 1. **Thời hạn hoàn tiền**: Theo quy định của pháp luật Việt Nam (tương tự như quy định của Bộ Công Thương), bạn có thể hoàn tiền ngay lập tức hoặc trong vòng **14 ngày** kể từ ngày nhận hàng. Nếu bạn đã mua hàng sau ngày 14, bạn không thể hoàn tiền. 2. **Tài khoản thanh toán**: Bạn cần đảm bảo rằng tài khoản thanh toán của bạn đã được xác minh và không bị khóa. Nếu tài khoản bị khóa, bạn không thể hoàn tiền ngay lập tức. 3. **Tài khoản hàng hóa**: Bạn cần kiểm",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 2,
+    "ticket": "Xin chào, mình đặt đèn bàn LED mã đơn VN880807. Hoàn tiền. Quá hạn rồi. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "cao",
+      "product": "đèn bàn LED",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, đây là một tình huống khá phổ biến và cần xử lý cẩn thận để bảo vệ quyền lợi của bạn. Dưới đây là các bước phân loại và giải pháp hành động cho ticket bạn gửi: ### 1. Phân loại ticket Ticket này thuộc loại **Ticket Hoàn tiền (Refund Ticket)**. * **Mục đích chính:** Để yêu cầu shop trả tiền cho việc mua đèn bàn LED. * **Điều kiện hoàn tiền:** * **Thời gian:** Đã quá hạn (không còn thời gian để kiểm tra hoặc sửa chữa). * **Độ tuổi:** Thường yêu cầu người mua phải đủ 18 tuổi (theo quy định pháp luật Việt Nam). * **Độ tuổi người bán:** Thường",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 1.0
+  },
+  {
+    "i": 3,
+    "ticket": "Cho mình hỏi, mình đặt bình giữ nhiệt mã đơn VN804124. Chưa thấy tiền. Khi nào tiện. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "thap",
+      "product": "bình giữ nhiệt",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt mã đơn **VN804124** chưa thấy tiền là một vấn đề khá phổ biến, thường do các đơn hàng này thuộc loại **đơn hàng không tiền (No-Price)** hoặc đơn hàng có phí cố định nhưng không tính tiền thực tế. Dưới đây là các bước bạn cần thực hiện để xác định rõ tình trạng và giải quyết vấn đề này: ### 1. Xác định loại đơn hàng Hãy kiểm tra mã đơn VN804124 trong hệ thống của bạn để xem nó thuộc loại nào: * **Đơn hàng không tiền:** Nếu không có số tiền nào, bạn có thể cần gọi điện hoặc truy cập trực tiếp vào trang web của shop để xem chi tiết. *",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 4,
+    "ticket": "Cho mình hỏi, mình đặt đèn bàn LED mã đơn VN339109. Vỡ khi nhận. Gấp. Shop xem giúp.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "cao",
+      "product": "đèn bàn LED",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, tình trạng đèn LED VN339109 bị vỡ và bị gấp (thường là do bị gãy hoặc bị vỡ do lực tác động) là một vấn đề khá phổ biến. Để shop có thể xử lý tốt nhất, chúng ta cần xác định rõ **số phận của đèn** (là đèn chỉ dẫn, đèn chiếu sáng, hay đèn báo hiệu) và **số phận của vật liệu** (là nhựa, thủy tinh, kim loại, hay composite). Dưới đây là các bước phân loại và giải pháp cụ thể mà shop có thể áp dụng: ### 1. Phân loại đèn LED VN339109 Đầu tiên, shop cần kiểm tra kỹ các thông số kỹ thuật trên nhãn hoặc qua máy đo",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 5,
+    "ticket": "Shop ơi, mình đặt nồi chiên không dầu mã đơn DH249548. Thiếu phụ kiện. Khi nào tiện. Cho tôi hỏi.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "nồi chiên không dầu",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để trả lời câu hỏi của bạn về mã sản phẩm **DH249548** (nồi chiên không dầu đơn) và tình trạng thiếu phụ kiện, tôi xin cung cấp thông tin chi tiết như sau: ### 1. Thông tin sản phẩm * **Tên sản phẩm:** Nồi chiên không dầu (NPK) đơn. * **Mã sản phẩm:** DH249548. * **Đặc điểm:** Đây là loại nồi chiên không dầu đơn giản, thường được sử dụng cho các món ăn nhanh, nhanh ăn nhanh (NKK) hoặc món ăn nhanh (NKKN) tại các cửa hàng tiện lợi, nhà hàng nhanh hoặc các cửa hàng ăn uống tại Việt Nam. *",
+    "pred_b": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 6,
+    "ticket": "Xin chào, mình đặt balo laptop mã đơn DH863123. Đổi size. Hỏi cho biết thôi. Lần cuối mua ở đây.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "thap",
+      "product": "balo laptop",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, thông tin về việc bạn đặt hàng laptop **DH863123** với kích thước thay đổi và yêu cầu mua lần cuối tại đây, tôi không thể cung cấp thông tin chi tiết về mã sản phẩm, giá trị, hoặc các thông tin cụ thể của hàng hóa này. Để hỗ trợ bạn tốt nhất, tôi khuyên bạn nên: 1. **Liên hệ trực tiếp với nhà cung cấp** (nếu có) hoặc **đặt hàng trực tiếp** qua các kênh bán hàng uy tín để được xác nhận chính xác về mã sản phẩm, kích thước, giá cả và các điều kiện mua hàng. 2. **Kiểm tra trang web hoặc app** của nhà cung cấp để xem mã sản phẩm chính xác và thông tin mua",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 7,
+    "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn OD126693. Muốn đổi. Đã 3 ngày rồi. Bực mình.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "trung_binh",
+      "product": "máy xay sinh tố",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, tình trạng bạn đang gặp phải là rất phổ biến và khá phổ biến. Dưới đây là phân loại chi tiết các lý do và cách xử lý để giải quyết vấn đề này một cách hiệu quả: ### 1. Phân loại tình trạng Tình trạng này có thể được phân loại theo 3 nhóm chính: * **Phân loại: Máy xay sinh tố lỗi thời (Old Machine)** * **Lý do:** Máy xay cũ thường có bộ phận cơ khí (cánh xay, trục, bánh răng) bị mòn, hỏng hoặc không được bảo dưỡng đúng quy trình. Khi máy hoạt động lâu, các bộ phận này sẽ bị ăn mòn, gây ra tiếng ồn lớn, tiếng rít hoặc máy không hoạt động ổn định.",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 8,
+    "ticket": "Xin chào, mình đặt chuột không dây mã đơn DH139158. Bảo hành bao lâu. Không vội. Mình vẫn tin tưởng shop.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "thap",
+      "product": "chuột không dây",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, để trả lời câu hỏi về bảo hành của mã **DH139158**, tôi cần lưu ý một điểm quan trọng trước khi đưa ra thông tin: **Mã này (DH139158) là mã sản phẩm của thương hiệu \"Tang\" (Tang Electronics), không phải là mã sản phẩm của thương hiệu \"Tang\" (Tang Electronics) hay các dòng sản phẩm khác.** Dưới đây là thông tin chi tiết về bảo hành cho mã này: ### 1. Bảo hành chính hãng (Chính hãng) Mã **DH139158** là mã sản phẩm chính hãng của thương hiệu **Tang**. * **Bảo hành chính hãng:** Theo quy định của Bộ Công",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"chữ ký không dây\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 9,
+    "ticket": "Cho mình hỏi, mình đặt chuột không dây mã đơn OD538419. Hoàn tiền. Mong shop phản hồi. Mình vẫn tin tưởng shop.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "chuột không dây",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt chuột không dây mã đơn **OD538419** và mong đợi shop phản hồi lại là một tình huống khá phổ biến. Để giúp shop của bạn phản hồi tốt nhất, chúng ta cần phân tích kỹ các yếu tố sau: ### 1. Phân tích mã đơn (OD538419) Đây là một mã đơn rất phổ biến trong thị trường chuột không dây (đặc biệt là dòng **Logitech G Pro** hoặc các dòng tương tự). * **Tính chất:** Mã đơn này thường được sử dụng cho các dòng chuột không dây có công nghệ **G-Force** hoặc **G-Sync** (nếu có), hoặc các dòng chuột không dây cũ hơn. * **Điểm",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"chữ ký không dây\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 10,
+    "ticket": "Shop ơi, mình đặt balo laptop mã đơn VN294388. Hoàn tiền. Ngay lập tức. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "cao",
+      "product": "balo laptop",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Dựa trên thông tin bạn cung cấp, đây là phân loại ticket theo các tiêu chí quan trọng nhất: ### 1. Phân loại theo Mục đích (Mục đích sử dụng) * **Ticket Hoàn tiền (Refund Ticket):** Đây là loại ticket được sử dụng để thanh toán tiền hoàn tiền (đổi lại) cho khách hàng. * **Ticket Mua hàng (Purchase Ticket):** Loại ticket này thường dùng để mua hàng trực tiếp từ nhà cung cấp hoặc các cửa hàng bán lẻ. ### 2. Phân loại theo Số lượng (Quantity) * **Ticket Đơn (Single Ticket):** Số lượng là 1. * **Ticket Nhiều (Multi Ticket):** Số lượng nhiều hơn 1. ### 3. Phân loại theo Loại",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 1.0
+  },
+  {
+    "i": 11,
+    "ticket": "Xin chào, mình đặt sạc dự phòng mã đơn DH264309. Giao hàng chậm. Không vội. Nhờ shop kiểm tra.",
+    "label": {
+      "intent": "van_chuyen",
+      "urgency": "thap",
+      "product": "sạc dự phòng",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, đây là mẫu email (hoặc thông báo) được soạn thảo để gửi cho shop bán hàng. Nội dung đã được chỉnh sửa để chuyên nghiệp, rõ ràng và thể hiện thái độ khách hàng tích cực. Bạn có thể chọn mẫu phù hợp nhất: ### Mẫu 1: Chuyên nghiệp, lịch sự (Khuyên dùng) **Chủ đề:** Cập nhật tình trạng giao hàng - Mã sản phẩm: DH264309 **Nội dung:** Chào [Tên shop], Chào bạn, Tôi viết lại để gửi thông tin cập nhật về tình trạng giao hàng của mã sản phẩm **DH264309** mà bạn đã đặt mua. Hiện tại, giao hàng vẫn đang diễn ra nhưng **chậm một",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"trung_binh\", \"product\": \"sạc dự phòng\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 12,
+    "ticket": "Shop ơi, mình đặt áo khoác gió mã đơn VN613097. Bị lỗi. Khi nào tiện. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "áo khoác gió",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, cảm ơn bạn đã liên hệ và chia sẻ thông tin. Dựa trên mã đơn **VN613097**, đây là thông tin chi tiết về lỗi và giải pháp: 1. **Lỗi chính:** Mã đơn này có thể bị lỗi do **số lượng sản phẩm không khớp** với số lượng đặt (ví dụ: bạn đặt 1 bộ nhưng nhận được 2, hoặc ngược lại). 2. **Cách xử lý:** Bạn cần kiểm tra lại số lượng sản phẩm đã đặt và so sánh với số lượng nhận được. 3. **Cách gọi lại:** * Nếu bạn đang ở **trang chủ** (trang web của shop): Bạn có thể bấm vào nút **\"Gọi lại\"** hoặc",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 13,
+    "ticket": "Cho mình hỏi, mình đặt tai nghe bluetooth mã đơn DH716609. Vỡ khi nhận. Không vội. Bực mình.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "tai nghe bluetooth",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, tình trạng tai nghe Bluetooth **DH716609** bị vỡ (hoặc hư hỏng) là một vấn đề khá phổ biến, đặc biệt là khi mua ở các cửa hàng bán lẻ hoặc từ các trang web. Dưới đây là các bước xử lý và giải pháp chi tiết để bạn khắc phục tình trạng này: ### 1. Kiểm tra kỹ trước khi mua lại (Quan trọng) Vì bạn đã mua tai nghe này, bạn nên kiểm tra lại các thông tin sau để đảm bảo không bị nhầm lẫn: * **Mã sản phẩm:** Hãy kiểm tra mã sản phẩm trên trang web hoặc trong app của thương hiệu (nếu có) để xem mã chính xác là gì. * **Mã serial:** Nếu có, hãy",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 14,
+    "ticket": "Alo shop, mình đặt áo khoác gió mã đơn OD701973. Bảo hành bao lâu. Sớm nhé. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "trung_binh",
+      "product": "áo khoác gió",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, để trả lời câu hỏi về bảo hành của Alo Shop cho mã đơn **OD701973**, tôi cần kiểm tra lại thông tin sản phẩm và quy định bảo hành của công ty. Dưới đây là thông tin chi tiết dựa trên dữ liệu hiện có: 1. **Mã đơn:** **OD701973** 2. **Sản phẩm:** Áo khoác gió (giống như áo khoác ngoài, áo khoác gió). 3. **Bảo hành:** Theo quy định của Alo Shop, bảo hành cho sản phẩm này thường là **12 tháng** (từ ngày nhận hàng đến ngày hết hạn bảo hành). **Lưu ý quan trọng:** * Bảo hành này thường áp dụng cho sản phẩm",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 15,
+    "ticket": "Xin chào, mình đặt bàn phím cơ mã đơn VN423493. Giá bao nhiêu. Ngay lập tức. Shop xem giúp.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "cao",
+      "product": "bàn phím cơ",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, thông tin về giá bàn phím cơ VN423493 chưa được cập nhật trong hệ thống shop hiện tại. Để biết chính xác giá trị, bạn có thể làm theo các bước sau: 1. **Kiểm tra trang web hoặc app shop:** Hãy truy cập trực tiếp vào trang web hoặc ứng dụng của shop bạn đang sử dụng. Tìm mục \"Giá bàn phím\" hoặc \"Giá bàn phím cơ\". 2. **Kiểm tra mã sản phẩm:** Mã VN423493 có thể là mã sản phẩm của một dòng bàn phím cụ thể (ví dụ: dòng VN423493 của một thương hiệu như **Huyt**, **Kyma**, **Tic**, hoặc các dòng phổ",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 16,
+    "ticket": "Chào shop, mình đặt máy xay sinh tố mã đơn OD684661. Không hoạt động. Khẩn. Cho tôi hỏi.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "cao",
+      "product": "máy xay sinh tố",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để hỗ trợ bạn tốt nhất, tôi cần một số thông tin chi tiết để xác định nguyên nhân máy xay sinh tố (OD684661) không hoạt động. Dưới đây là các thông tin quan trọng bạn cần cung cấp để tôi phân loại ticket và đưa ra giải pháp: 1. **Mô tả chi tiết lỗi:** Bạn đã nói \"không hoạt động\" nhưng có thể có thêm các dấu hiệu cụ thể không? * Máy xay không quay? * Máy xay không có nước? * Máy xay không có hạt? * Máy xay không có nước đá? * Máy xay không có điện? * Máy xay không có nước nóng?",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 17,
+    "ticket": "Shop ơi, mình đặt máy xay sinh tố mã đơn VN576006. Vỡ khi nhận. Không vội. Rất thất vọng.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "máy xay sinh tố",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, cảm ơn bạn đã chia sẻ trải nghiệm. Việc máy xay sinh tố bị vỡ khi nhận và không vội là một tình huống khá phổ biến, thường do các yếu tố sau gây ra: 1. **Lỗi kỹ thuật của sản phẩm:** Máy xay có thể bị lỗi cơ học, điện hoặc có thể bị vỡ do quá tải khi vận hành. 2. **Lỗi nhận hàng:** Có thể máy xay bị lỗi khi nhận hàng, không hoạt động đúng cách hoặc không có đầy đủ các phần tử cần thiết. 3. **Lỗi nhận hàng của bạn:** Có thể bạn đã không đúng số lượng, không đúng mã sản phẩm hoặc đã đặt nhầm máy. **Lời khuyên:** * **Kiểm tra lại số",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 18,
+    "ticket": "Shop ơi, mình đặt máy xay sinh tố mã đơn DH777946. Khi nào có tiền về. Mong shop phản hồi. Rất thất vọng.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "máy xay sinh tố",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, cảm ơn bạn đã liên hệ. Để hỗ trợ bạn tốt nhất, tôi cần một số thông tin cụ thể để phân loại ticket này chính xác và đưa ra lời khuyên phù hợp. Dưới đây là các thông tin quan trọng bạn cần cung cấp: 1. **Số điện thoại của bạn:** Để tôi xác nhận chính xác mã đơn và thời gian trả tiền. 2. **Địa chỉ của shop:** Để tôi xác nhận đúng tên, địa chỉ và số điện thoại liên hệ của shop. 3. **Số điện thoại của bạn:** Để tôi xác nhận chính xác số điện thoại của bạn. 4. **Số điện thoại của shop:** Để tôi xác nhận chính xác số điện thoại của shop. 5. **",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 19,
+    "ticket": "Xin chào, mình đặt nồi chiên không dầu mã đơn VN103615. Vỡ khi nhận. Ngay lập tức. Nhờ shop kiểm tra.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "cao",
+      "product": "nồi chiên không dầu",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, tình huống bạn gặp phải là một vấn đề khá phổ biến với sản phẩm nồi chiên không dầu (đặc biệt là dòng đơn giản như mã VN103615). Khi nồi bị vỡ ngay sau khi nhận, điều này thường do các yếu tố sau: 1. **Độ ẩm quá cao:** Nồi chiên không dầu thường chứa dầu hoặc mỡ. Nếu vệ sinh không đúng cách (không lau khô hoàn toàn trước khi đóng gói) hoặc nếu sản phẩm đã bị đóng gói trong môi trường ẩm ướt, dầu sẽ bốc hơi nhanh chóng, khiến nồi bị nứt vỡ ngay khi đóng gói. 2. **Độ ẩm quá thấp:** Nếu vệ sinh không đủ, nồi sẽ bị khô cứng, dẫn đến việc đóng gói bị vỡ",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 20,
+    "ticket": "Cho mình hỏi, mình đặt bàn phím cơ mã đơn VN591641. Sai màu. Khẩn. Cho tôi hỏi.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "cao",
+      "product": "bàn phím cơ",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, việc đặt bàn phím cơ mã đơn VN591641 với lỗi màu (sai màu) và tình trạng khẩn cấp (khẩn cấp) là một tình huống đòi hỏi sự nhanh chóng và chính xác. Dưới đây là các bước xử lý chi tiết để bạn có thể liên hệ hoặc gọi ngay: ### 1. Xác định tình trạng khẩn cấp Vì bạn đã ghi nhận lỗi màu và tình trạng khẩn cấp, đây là **tình huống cao cấp**. Bạn cần đảm bảo tính an toàn trước khi gọi điện hoặc gọi trực tiếp. ### 2. Cách gọi điện (Nếu bạn có điện thoại) * **Số điện thoại:** Bạn cần gọi đến số điện thoại của **Nhà cung cấp bàn phím cơ** (ví",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 21,
+    "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn OD593253. Bảo hành bao lâu. Tôi cần trước ngày mai. Quá tệ.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "cao",
+      "product": "máy xay sinh tố",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, tình trạng máy xay sinh tố **OD593253** của Alo Shop khá phổ biến và thường được bảo hành trong khoảng **180 ngày** (từ ngày đặt hàng đến ngày hết hạn bảo hành). Tuy nhiên, vì bạn đặt máy vào **trước ngày mai**, việc bảo hành có thể bị ảnh hưởng bởi một số yếu tố sau: 1. **Thời gian đặt hàng**: Nếu máy được đặt hàng vào ngày trước, bảo hành thường bắt đầu từ ngày đặt hàng. Nếu máy đã được sử dụng quá nhiều lần hoặc đã bị hỏng, bảo hành có thể bị rút ngắn hoặc không được bảo hành. 2. **Tình trạng sử dụng**: Nếu máy đã được sử dụng nhiều lần, có thể đã bị",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 22,
+    "ticket": "Cho mình hỏi, mình đặt máy xay sinh tố mã đơn OD468960. Cho tôi trả lại. Quá hạn rồi. Shop hỗ trợ tốt.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "cao",
+      "product": "máy xay sinh tố",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, sau khi kiểm tra thông tin và so sánh với mã số bạn cung cấp, tôi nhận thấy có một số điểm cần lưu ý để bạn có thể liên hệ với shop hoặc cơ quan quản lý: 1. **Mã số không khớp:** Mã số bạn cung cấp là **OD468960**. Tuy nhiên, mã số này có vẻ không chuẩn trong hệ thống quản lý của bạn (có thể là mã sản phẩm, mã đơn hàng, hoặc mã đơn vị). * Nếu đây là **mã sản phẩm** (ví dụ: mã sản phẩm xay sinh tố), mã này có thể tồn tại nhưng không phải là mã đơn hàng. * Nếu đây là **mã đơn hàng** (ví dụ: mã đơn",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 23,
+    "ticket": "Chào shop, mình đặt nồi chiên không dầu mã đơn VN558606. Giao hàng chậm. Mong shop phản hồi. Lần cuối mua ở đây.",
+    "label": {
+      "intent": "van_chuyen",
+      "urgency": "trung_binh",
+      "product": "nồi chiên không dầu",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, đây là mẫu email phản hồi chuyên nghiệp, lịch sự và giải thích rõ ràng cho khách hàng của bạn. Bạn có thể gửi email này cho nhân viên bán hàng hoặc quản lý của shop. --- **Tiêu đề:** Phản hồi: Đặt nồi chiên không dầu mã đơn VN558606 - Giao hàng chậm **Nội dung:** Chào [Họ và tên của khách hàng], Chào mừng bạn đến với [Tên của shop]! Tôi tin rằng bạn đã đặt đúng mã đơn **Nồi chiên không dầu mã đơn VN558606** vào đúng thời điểm. Tuy nhiên, tôi nhận thấy rằng giao hàng của bạn hiện tại còn chậm. Để giúp shop phục vụ tốt hơn cho bạn",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 24,
+    "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn VN931861. Bị lỗi. Gấp. Cho tôi hỏi.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "cao",
+      "product": "máy xay sinh tố",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để giải quyết tình trạng máy xay sinh tố bị lỗi và gấp, bạn cần thực hiện các bước sau theo đúng quy trình của sản phẩm **VN931861**: 1. **Kiểm tra trạng thái máy:** * Đảm bảo máy đã được khởi động (đóng nắp máy). * Kiểm tra xem có dấu hiệu lỗi (thoát nước, tiếng kêu lạ, hoặc máy không hoạt động) ngay lập tức. * Nếu máy đang ở trạng thái \"Chạy\" hoặc \"Đang chạy\", hãy tắt máy bằng nút tắt trên thân máy hoặc bằng tay. 2. **Thực hiện thao tác gấp (Gấp máy):** * **Bước 1:** Mở nắp",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 25,
+    "ticket": "Cho mình hỏi, mình đặt tai nghe bluetooth mã đơn OD851441. Cho tôi trả lại. Hỏi cho biết thôi. Shop hỗ trợ tốt.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "thap",
+      "product": "tai nghe bluetooth",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt tai nghe Bluetooth mã đơn **OD851441** là một lựa chọn rất hợp lý vì mã này thường được thiết kế để có độ bền cao, hỗ trợ nhiều chế độ âm thanh (bao gồm cả Bluetooth và AUX) và có thể được sử dụng trong các thiết bị di động, xe máy hoặc các thiết bị ngoại vi khác. Dưới đây là các thông tin chi tiết về mã này để bạn tham khảo khi mua lại hoặc bảo hành: ### 1. Thông số kỹ thuật cơ bản * **Mã sản phẩm:** OD851441 * **Loại:** Tai nghe Bluetooth (Bluetooth Headphone) * **Công nghệ:** Bluetooth 5.0 (hoặc phiên bản tương",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 26,
+    "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn VN724342. Trả lại tiền. Không vội. Nhờ shop kiểm tra.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "thap",
+      "product": "máy xay sinh tố",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Dựa trên thông tin bạn cung cấp, đây là phân loại ticket theo các tiêu chuẩn pháp lý và quy định về giao dịch mua bán hàng hóa tại Việt Nam: ### 1. Loại ticket là gì? Đây là một **ticket mua bán hàng hóa** (hoặc đơn hàng mua bán). * **Mục đích:** Để xác định rõ đối tượng mua bán, số lượng, giá trị và thời gian thực hiện giao dịch. * **Nội dung:** * **Đối tượng:** Người mua (Alo shop). * **Sản phẩm:** Máy xay sinh tố (Mã: VN724342). * **Số lượng:** 1 (theo đơn hàng). * **Giá trị:**",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 27,
+    "ticket": "Xin chào, mình đặt bàn phím cơ mã đơn VN130559. Cho tôi trả lại. Ngay lập tức. Mình vẫn tin tưởng shop.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "cao",
+      "product": "bàn phím cơ",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, cảm ơn bạn đã tin tưởng và đặt bàn phím cơ mã đơn VN130559. Để trả lại, bạn cần thực hiện các bước sau: 1. **Kiểm tra trạng thái**: Hãy kiểm tra trang web hoặc ứng dụng của shop để xem có thông báo \"Đã trả lại\" hay chưa. 2. **Lấy lại**: Nếu đã được lấy lại, bạn có thể gọi lại hoặc đặt lại bàn phím cơ mã đơn VN130559. 3. **Đặt lại**: Nếu chưa được lấy lại, bạn có thể đặt lại bàn phím cơ mã đơn VN130559. Nếu bạn cần hỗ trợ thêm về cách đặt lại hoặc thông tin chi tiết, hãy",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"tieu_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 28,
+    "ticket": "Xin chào, mình đặt bình giữ nhiệt mã đơn OD592390. Cho tôi trả lại. Không vội. Cho tôi hỏi.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "thap",
+      "product": "bình giữ nhiệt",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để trả lời đúng mã đơn **OD592390** và hành động của bạn, tôi cần biết thêm thông tin chi tiết để hỗ trợ chính xác: 1. **Số điện thoại của bạn**: Để xác nhận mã đơn và xác nhận hành động trả lại. 2. **Địa chỉ đặt hàng**: Để xác nhận mã đơn và xác nhận hành động trả lại. 3. **Số tiền đặt hàng**: Để xác nhận mã đơn và xác nhận hành động trả lại. 4. **Số lượng hàng**: Để xác nhận mã đơn và xác nhận hành động trả lại. 5. **Số ngày đặt hàng**: Để xác nhận mã đơn và xác nhận hành động trả lại. 6. **Số",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 29,
+    "ticket": "Chào shop, mình đặt đèn bàn LED mã đơn VN718973. Cho tôi trả lại. Không vội. Quá tệ.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "thap",
+      "product": "đèn bàn LED",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, cảm ơn bạn đã gửi thông tin. Tuy nhiên, tôi cần lưu ý một vấn đề quan trọng trước khi xử lý: **Bạn đang đặt đèn bàn LED mã đơn VN718973, nhưng bạn lại yêu cầu \"trả lại\" (giữ nguyên) đèn đó.** Đây là tình huống **không thể thực hiện được** vì lý do pháp lý và kỹ thuật: 1. **Mã đơn không hợp lệ:** Mã đơn VN718973 là mã sản phẩm đã được đăng ký và bán ra thị trường. Bạn không thể \"giữ nguyên\" một sản phẩm đã bán ra thị trường mà không có sự đồng ý của người bán. 2. **Quy định pháp luật:** Theo quy định của",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 30,
+    "ticket": "Alo shop, mình đặt đèn bàn LED mã đơn OD936122. Hoàn lại. Sớm nhé. Lần cuối mua ở đây.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "trung_binh",
+      "product": "đèn bàn LED",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Dựa trên thông tin bạn cung cấp, đây là phân loại ticket mua hàng của bạn: **1. Loại ticket:** * **Ticket mua hàng:** Đây là ticket mua hàng trực tiếp từ cửa hàng (Alo shop). * **Ticket mua hàng online:** Đây là ticket mua hàng qua nền tảng e-commerce (TikTok Shop, Shopee, Lazada, hoặc các sàn thương mại điện tử khác). **2. Loại sản phẩm:** * **Sản phẩm:** Đèn bàn LED. * **Mã sản phẩm:** OD936122. **3. Thông tin chi tiết:** * **Tên sản phẩm:** Đèn bàn LED. * **Mã đơn hàng:** OD936122.",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 31,
+    "ticket": "Cho mình hỏi, mình đặt balo laptop mã đơn DH791218. Còn hàng không. Hỏi cho biết thôi. Mình vẫn tin tưởng shop.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "thap",
+      "product": "balo laptop",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt hàng laptop (đặc biệt là dòng máy như DH791218) qua hệ thống hàng không (Airline) là một thủ tục khá phức tạp và có thể gây nhầm lẫn nếu không làm đúng quy trình. Dưới đây là những lưu ý quan trọng bạn cần lưu ý để tránh rủi ro và đảm bảo sự an toàn khi đi mua hàng này: ### 1. Quy trình đặt hàng hàng không (Airline) Trước khi đi mua, bạn cần xác định rõ **hàng không** là loại nào: * **Hàng không (Airline):** Đây là loại máy được hãng hàng không (như Vietnam Airlines, China Eastern, Vietnam Air, etc.) mua lại từ các nhà máy sản xuất (",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 32,
+    "ticket": "Cho mình hỏi, mình đặt máy xay sinh tố mã đơn OD906403. Hoàn lại. Mong shop phản hồi. Shop hỗ trợ tốt.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "trung_binh",
+      "product": "máy xay sinh tố",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, để giúp shop phản hồi tốt nhất, tôi cần một số thông tin cụ thể để đưa ra lời khuyên hay nhất. Bạn có thể cung cấp thêm một số thông tin sau: 1. **Số điện thoại hoặc địa chỉ của shop:** Để biết họ có sẵn đội ngũ hỗ trợ chuyên nghiệp không. 2. **Thời gian đặt hàng:** Bạn đặt hôm nay, sau ngày nào, hoặc có thể làm thủ tục qua điện thoại? 3. **Tình trạng máy xay:** Máy có lỗi gì không? (ví dụ: không xay được, không hoạt động, lỗi điện, lỗi nhiệt...) 4. **Số lượng đơn hàng:** Bạn có đặt nhiều đơn hàng cùng lúc không? **Dưới đây là một số mẫu email",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"máy xay sinh tố\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 33,
+    "ticket": "Shop ơi, mình đặt chuột không dây mã đơn VN382610. Khi nào có tiền về. Gấp. Quá tệ.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "cao",
+      "product": "chuột không dây",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, tình trạng \"đặt chuột không dây mã đơn VN382610\" và việc bị \"quá tệ\" (thường là lỗi hiển thị, không nhận tiền, hoặc giao dịch bị chặn) là những vấn đề khá phổ biến trong hệ thống thanh toán điện tử. Dưới đây là các bước xử lý và giải pháp chi tiết để bạn khắc phục tình trạng này: ### 1. Kiểm tra thông tin và mã đơn * **Kiểm tra mã đơn:** Đảm bảo mã đơn bạn nhập chính xác là **VN382610**. Đôi khi mã đơn có thể bị lỗi hoặc mã QR code không khớp. * **Kiểm tra trạng thái giao dịch:** Hãy xem xem giao dịch của bạn đang",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"chữ ký không dây\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 34,
+    "ticket": "Alo shop, mình đặt sạc dự phòng mã đơn VN406023. Giao hàng chậm. Quá hạn rồi. Bực mình.",
+    "label": {
+      "intent": "van_chuyen",
+      "urgency": "cao",
+      "product": "sạc dự phòng",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Dựa trên thông tin bạn cung cấp, đây là phân loại ticket theo các tiêu chí pháp lý và hành vi: ### 1. Phân loại theo Nội dung (Nội dung của ticket) * **Tiêu đề:** \"Alo shop, mình đặt sạc dự phòng mã đơn VN406023. Giao hàng chậm. Quá hạn rồi. Bực mình.\" * **Nội dung chính:** * **Lỗi khách hàng:** Khách hàng đã đặt sản phẩm (sạc dự phòng) nhưng giao hàng chậm quá hạn. * **Lỗi khách hàng:** Khách hàng đã đặt sản phẩm nhưng không nhận được giao hàng đúng hạn. * **Lỗi khách hàng:** Khách hàng đã đặt sản phẩm nhưng không",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"sạc dự phòng\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 35,
+    "ticket": "Shop ơi, mình đặt balo laptop mã đơn DH462768. Hoàn lại. Sớm nhé. Nhờ shop kiểm tra.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "trung_binh",
+      "product": "balo laptop",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Dưới đây là mẫu phân loại ticket cho hành khách, dựa trên nội dung bạn cung cấp: **TÊN TIKET:** **Hành khách** **MẪU TIKET:** ```text [Thông tin khách hàng] - Mã đơn: DH462768 - Hành khách: [Tên hành khách] - Số điện thoại: [Số điện thoại] - Ngày đặt: [Ngày] - Thời gian đặt: [Thời gian] [Nội dung hành khách] - Hoàn lại. - Sớm nhé. - Nhờ shop kiểm tra. [Thông tin hành khách] - Mã đơn: DH462768 - Hành khách: [Tên hành khách]",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"balo laptop\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 36,
+    "ticket": "Chào shop, mình đặt tai nghe bluetooth mã đơn VN161530. Giá bao nhiêu. Hỏi cho biết thôi. Rất thất vọng.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "thap",
+      "product": "tai nghe bluetooth",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, để trả lời chính xác về giá của tai nghe Bluetooth mã đơn **VN161530**, tôi cần kiểm tra lại thông tin kỹ thuật của sản phẩm này. Thông tin mã đơn **VN161530** thường được sử dụng cho các dòng tai nghe Bluetooth phổ biến như: * **Tearapod** (đặc biệt là dòng Earbuds hoặc Earbuds Pro) * **Tearapod Pro** * **Tearapod 3** Dưới đây là thông tin chi tiết về giá trị của sản phẩm này dựa trên thị trường hiện tại: 1. **Giá gốc (Giao hàng):** Giá niêm yết của Tearapod VN1615",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 37,
+    "ticket": "Alo shop, mình đặt tai nghe bluetooth mã đơn VN708541. Có màu khác không. Quá hạn rồi. Shop xem giúp.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "cao",
+      "product": "tai nghe bluetooth",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, tình huống đặt hàng tai nghe Bluetooth mã đơn VN708541 đang quá hạn rất khó khăn vì đây là sản phẩm có giá trị cao và thường được bán theo gói (pack) hoặc theo mã riêng. Dưới đây là các bước xử lý và giải pháp để bạn có thể tìm được sản phẩm: ### 1. Kiểm tra thông tin mã đơn * **Mã đơn:** VN708541. * **Thông tin sản phẩm:** * **Tên sản phẩm:** Thường là \"Tốt nghe\" (hoặc tên chính xác của dòng tai nghe bạn đang dùng). * **Màu sắc:** Đây là điểm quan trọng nhất. Bạn cần kiểm tra xem mã đơn VN70",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 38,
+    "ticket": "Cho mình hỏi, mình đặt bàn phím cơ mã đơn OD984347. Giá bao nhiêu. Ngay lập tức. Shop xem giúp.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "cao",
+      "product": "bàn phím cơ",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để trả lời chính xác về giá của bàn phím cơ **OD984347**, tôi cần kiểm tra lại thông tin kỹ thuật của dòng này vì mã này có thể là một số variation (thường là phiên bản \"Mini\" hoặc \"Compact\" thay vì \"Full\" chuẩn). Dưới đây là thông tin chi tiết và hướng dẫn bạn cách xác định giá: ### 1. Thông tin kỹ thuật cơ bản * **Tên dòng:** Keyboard OD984347 (Thường được gọi là **OD984347 Mini** hoặc **OD984347 Compact**). * **Công nghệ:** Thường sử dụng công nghệ **Tactile** (bàn phím cảm ứng",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bàn phím cơ\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 39,
+    "ticket": "Chào shop, mình đặt nồi chiên không dầu mã đơn VN949966. Hoàn tiền. Khi nào tiện. Quá tệ.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "thap",
+      "product": "nồi chiên không dầu",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, để xử lý đơn hàng nồi chiên không dầu mã **VN949966** với lý do hoàn tiền, tôi cần xác định rõ quy định của bạn trước khi hỗ trợ. Dưới đây là các bước xử lý cần thực hiện dựa trên thông tin bạn cung cấp: ### 1. Xác định quy định của bạn Vì bạn chưa nói rõ **bạn là người bán** hay **người mua**, quy định hoàn tiền sẽ khác nhau: * **Nếu bạn là người bán (Shop Owner):** * Bạn có quyền hoàn tiền nếu sản phẩm không đạt chất lượng, lỗi kỹ thuật, hoặc nếu bạn đã mua hàng từ một trung tâm bảo hành khác. * Bạn cần cung cấp **số điện",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 40,
+    "ticket": "Chào shop, mình đặt đèn bàn LED mã đơn VN708765. Không hoạt động. Tôi cần trước ngày mai. Quá tệ.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "cao",
+      "product": "đèn bàn LED",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, tình trạng đèn LED không hoạt động là một vấn đề khá phổ biến. Để giải quyết nhanh chóng, tôi sẽ hướng dẫn bạn theo từng bước sau: ### 1. Kiểm tra đơn hàng và mã số * **Kiểm tra mã số:** Mã bạn cung cấp là **VN708765**. Hãy kiểm tra kỹ xem mã này có hợp lệ không. * Nếu mã này **không hợp lệ**, bạn có thể thử đặt lại bằng cách nhập mã **VN708765** vào phần nhập liệu của cửa hàng. * Nếu mã này **có thể hợp lệ**, hãy kiểm tra lại mã số trên màn hình của cửa hàng (thường là 8 hoặc 9 chữ số).",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 41,
+    "ticket": "Cho mình hỏi, mình đặt đèn bàn LED mã đơn OD436045. Giao hàng chậm. Khi nào tiện. Cảm ơn shop nhiều.",
+    "label": {
+      "intent": "van_chuyen",
+      "urgency": "thap",
+      "product": "đèn bàn LED",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt đèn LED mã **OD436045** có giao hàng chậm là một tình huống khá phổ biến, đặc biệt là khi các nhà cung cấp đèn LED thường xuyên thay đổi lịch giao hàng hoặc có các đợt ưu đãi đặc biệt. Dưới đây là các bước bạn nên thực hiện để giải quyết tình huống này một cách hiệu quả nhất: ### 1. Kiểm tra lịch giao hàng chính thức Đầu tiên, hãy kiểm tra trang web hoặc app của **Nhà cung cấp đèn LED** (ví dụ: Tien, Tien LED, Tien LED Việt Nam, hoặc các thương hiệu khác) để xem lịch giao hàng hiện tại. * Nếu lịch giao hàng đã hết hạn hoặc đã qua, hãy liên hệ ngay",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 42,
+    "ticket": "Cho mình hỏi, mình đặt tai nghe bluetooth mã đơn DH169142. Hoàn tiền. Ngay lập tức. Cho tôi hỏi.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "cao",
+      "product": "tai nghe bluetooth",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, việc đặt **tai nghe Bluetooth mã đơn (Single-Price)** như mã **DH169142** là một cách phổ biến để tiết kiệm chi phí mua hàng. Tuy nhiên, vì mã này thường được sản xuất bởi các nhà máy nhỏ hoặc các thương hiệu không uy tín, nên việc hoàn tiền ngay lập tức có thể gặp khó khăn về mặt pháp lý hoặc quy trình xử lý. Dưới đây là những lưu ý quan trọng bạn cần lưu ý để bảo vệ quyền lợi của mình: ### 1. Kiểm tra mã nguồn (Mã số) Bạn cần xác nhận chính xác mã số của tai nghe. * **Mã số:** `DH169142` * **Kiểm tra trên:** Hãy",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"tai nghe bluetooth\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 43,
+    "ticket": "Xin chào, mình đặt bình giữ nhiệt mã đơn DH866575. Khi nào có tiền về. Sớm nhé. Quá tệ.",
+    "label": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "bình giữ nhiệt",
+      "sentiment": "tieu_cuc"
+    },
+    "pred_a": "Chào bạn, cảm ơn bạn đã gửi thông tin. Tuy nhiên, **chưa có đủ thông tin để phân loại ticket** (đặc biệt là mã đơn DH866575) một cách chính xác. Để phân loại đúng, bạn cần cung cấp thêm các thông tin sau: 1. **Số điện thoại** của người gửi (để xác định đối tượng khách hàng). 2. **Số điện thoại** của người nhận (để xác định đối tượng khách hàng). 3. **Số dư** hiện tại của tài khoản (để xác định mức độ rủi ro). 4. **Số dư** của tài khoản khách hàng (để xác định mức độ rủi ro). 5. **Số dư** của tài khoản",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  },
+  {
+    "i": 44,
+    "ticket": "Shop ơi, mình đặt nồi chiên không dầu mã đơn OD169066. Trả hàng. Mong shop phản hồi. Mình vẫn tin tưởng shop.",
+    "label": {
+      "intent": "doi_tra",
+      "urgency": "trung_binh",
+      "product": "nồi chiên không dầu",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, đây là một yêu cầu rất thiết thực và quan trọng. Để đảm bảo bạn nhận được hàng đúng mã, nhanh chóng và an toàn, dưới đây là **phân loại ticket** đã được chuẩn bị sẵn cho bạn. Bạn có thể lưu hoặc gửi cho nhân viên bán hàng. --- ### 📢 Phân loại Ticket: Phản hồi yêu cầu trả hàng **1. Tiêu đề (Title):** > **Yêu cầu trả hàng: Mã đơn OD169066** **2. Nội dung (Body):** > \"Chào shop, mình đang đặt nồi chiên không dầu mã đơn **OD169066**. > > Hiện tại mình đang **trả hàng** (hoặc đang chờ nhận hàng).",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 45,
+    "ticket": "Shop ơi, mình đặt sạc dự phòng mã đơn VN727311. Còn hàng không. Tôi cần trước ngày mai. Shop xem giúp.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "cao",
+      "product": "sạc dự phòng",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để hỗ trợ bạn tốt nhất, tôi cần một số thông tin chi tiết để xác định đúng loại ticket và cách xử lý. Dưới đây là các thông tin quan trọng bạn cần cung cấp: 1. **Số điện thoại hàng không**: Bạn cần biết số điện thoại của khách hàng đang đặt hàng không (để xác định mã đơn và thời gian giao hàng). 2. **Số điện thoại của bạn**: Để xác định mã đơn VN727311 và thời gian đặt hàng. 3. **Địa chỉ đặt hàng**: Bạn muốn đặt sạc dự phòng tại đâu? (Ví dụ: tại cửa hàng, nhà hàng, hoặc tại nhà). 4. **Thời gian đặt hàng cụ thể**: Bạn muốn đặt trước ngày mai",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \"sạc dự phòng\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.75
+  },
+  {
+    "i": 46,
+    "ticket": "Chào shop, mình đặt đèn bàn LED mã đơn OD819229. Sai màu. Khi nào tiện. Shop hỗ trợ tốt.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "đèn bàn LED",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, đây là thông tin chi tiết về ticket bạn đã đặt: * **Mã đơn:** OD819229 * **Sản phẩm:** Đèn bàn LED * **Mô tả:** Mã đơn (đơn hàng) * **Tình trạng:** Sai màu (Màu không đúng yêu cầu) * **Hỗ trợ:** Shop hỗ trợ tốt **Lưu ý quan trọng:** Việc đặt đèn bàn LED thường yêu cầu **mã sản phẩm (SKU)** cụ thể để shop có thể xác nhận chính xác màu sắc. Mã đơn (OD819229) có thể là mã đơn hàng chung hoặc mã sản phẩm chung, nhưng shop thường cần mã sản phẩm chính xác để kiểm tra màu.",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 47,
+    "ticket": "Cho mình hỏi, mình đặt ốp lưng điện thoại mã đơn DH936478. Shipper không gọi. Hỏi cho biết thôi. Shop hỗ trợ tốt.",
+    "label": {
+      "intent": "van_chuyen",
+      "urgency": "thap",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "tich_cuc"
+    },
+    "pred_a": "Chào bạn, việc đặt ốp lưng điện thoại với mã đơn **DH936478** và nhận được thông báo từ Shipper (nhà cung cấp) là một tình huống khá phổ biến. Dưới đây là các phân loại chính xác dựa trên thông tin bạn cung cấp: ### 1. Phân loại theo trạng thái của Shipper * **Shipper KHÔNG gọi (Không có thông báo):** Đây là trường hợp phổ biến nhất. Khi Shipper không gọi, họ thường chỉ gửi thông báo về **tên sản phẩm** hoặc **mã đơn** (ví dụ: \"Sản phẩm: OPPO A15, Mã đơn: DH936478\"). * *Lưu ý:* Nếu Shipper không gọi, họ **không",
+    "pred_b": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 48,
+    "ticket": "Alo shop, mình đặt ốp lưng điện thoại mã đơn DH734695. Giá bao nhiêu. Mong shop phản hồi. Nhờ shop kiểm tra.",
+    "label": {
+      "intent": "hoi_thong_tin",
+      "urgency": "trung_binh",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, để trả lời chính xác về giá của ốp lưng điện thoại **DH734695** tại Alo Shop, tôi cần kiểm tra lại thông tin sản phẩm và quy trình thanh toán của bạn. Dưới đây là các thông tin chi tiết và hướng dẫn bạn cần làm: ### 1. Thông tin sản phẩm (Mã sản phẩm) Mã bạn cung cấp là **DH734695**. Đây là mã sản phẩm của dòng ốp lưng **Alo Shop** (thường là dòng **Alo Shop 100** hoặc **Alo Shop 100 Pro**). * **Đặc điểm:** Đây là ốp lưng chống nước, chống bụi, chống sốc, thường có lớp phủ chống nước IP",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+    "score_a": 0.0,
+    "score_b": 0.5
+  },
+  {
+    "i": 49,
+    "ticket": "Chào shop, mình đặt ốp lưng điện thoại mã đơn VN833689. Sai màu. Sớm nhé. Shop xem giúp.",
+    "label": {
+      "intent": "san_pham_loi",
+      "urgency": "trung_binh",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "trung_tinh"
+    },
+    "pred_a": "Chào bạn, đây là thông tin về ticket bạn đặt: * **Mã đơn:** VN833689 * **Sản phẩm:** Ốp lưng điện thoại * **Tình trạng:** Sai màu (Đã nhận lỗi về màu sắc) * **Thời gian:** Sớm (Đang chờ xử lý) **Lưu ý quan trọng:** Vì ticket này đang ở trạng thái **\"Sớm\"**, bạn nên **không để ý đến các thông tin chi tiết** (như số điện thoại, mã QR, hoặc số tiền) để tránh bị nhầm lẫn. Hãy tập trung vào việc **đảm bảo chiếc ốp lưng được nhận đúng màu** và **đặt hàng lại** nếu không hài lòng. Bạn có thể gửi mã",
+    "pred_b": "{\"intent\": \"van_chuyen\", \"urgency\": \"cao\", \"product\": \" ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+    "score_a": 0.0,
+    "score_b": 0.25
+  }
+]

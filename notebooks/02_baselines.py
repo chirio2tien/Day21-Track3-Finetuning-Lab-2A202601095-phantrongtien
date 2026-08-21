@@ -99,6 +99,28 @@ report.write_json(frozen, "baselines_frozen.json", results_dir=ROOT / "results")
 print(json.dumps(frozen, ensure_ascii=False, indent=2))
 
 # %% [markdown]
+# ### Phụ lục — lưu lại dự đoán từng mẫu của (a) và (b)
+#
+# Không có trong lab gốc. REPORT.md §6 yêu cầu đặt cạnh nhau dự đoán của **(b)** và của
+# bản fine-tune trên **cùng** ticket; NB2 vốn chỉ giữ điểm tổng hợp, nên các ô "(b)
+# prompt" sẽ phải điền bằng trí nhớ. Đây là artefact **cộng thêm**: không sửa tập eval,
+# không sửa prompt, không đụng vào một con số nào đã đóng băng ở trên.
+
+# %%
+per_item = [
+    {"i": i,
+     "ticket": r["input"],
+     "label": r["label"],
+     "pred_a": " ".join(pa.split()),
+     "pred_b": " ".join(pb.split()),
+     "score_a": round(ev.triage_field_accuracy(pa, r["label"]), 4),
+     "score_b": round(ev.triage_field_accuracy(pb, r["label"]), 4)}
+    for i, (r, pa, pb) in enumerate(zip(target, preds_a, preds_b))
+]
+report.write_json(per_item, "baseline_preds.json", results_dir=ROOT / "results")
+print(f"baseline_preds.json: {len(per_item)} mẫu")
+
+# %% [markdown]
 # ### Đọc kết quả trước khi đi tiếp
 #
 # * **(b) đã cao sẵn?** Tốt — bài toán của bạn có thể *không cần* fine-tune. Đó là một

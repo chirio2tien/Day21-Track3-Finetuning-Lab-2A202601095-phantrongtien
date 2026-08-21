@@ -1,0 +1,37 @@
+{
+  "comparison": [
+    {
+      "run": "(a) base + naive prompt",
+      "target": 0.0,
+      "regression": 0.6222,
+      "format": 0.0,
+      "latency_ms": 9263.3,
+      "n": 50
+    },
+    {
+      "run": "(b) base + optimized prompt",
+      "target": 0.5,
+      "regression": 0.6222,
+      "format": 1.0,
+      "latency_ms": 2333.9,
+      "n": 50
+    },
+    {
+      "run": "(c) LoRA fine-tune",
+      "target": 0.99,
+      "regression": 0.0333,
+      "format": 1.0,
+      "latency_ms": 3829.7,
+      "n": 50
+    }
+  ],
+  "verdict": {
+    "passed": false,
+    "reasons": [
+      "general capability regressed by 0.589 (tolerance 0.020). See deck §14.3 — add 1-5% replay data."
+    ],
+    "target_delta": 0.49,
+    "regression_delta": -0.5888888888888889
+  },
+  "valid_trace_rate": 0.0
+}

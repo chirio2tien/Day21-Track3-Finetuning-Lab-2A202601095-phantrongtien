@@ -1,0 +1,178 @@
+[
+  {
+    "i": 0,
+    "instruction": "Thủ đô của Việt Nam là thành phố nào?",
+    "keywords": [
+      "Hà Nội"
+    ],
+    "base_pred": "Thành phố Thủ đô của Việt Nam là **Hà Nội**. Hà Nội được quy định là thủ đô do Chính phủ Việt Nam đã công nhận và quy định từ năm 1995. Đây là thành phố lớn nhất cả nước về dân số, diện tích, GDP và vị trí địa lý, đóng vai trò trung tâm kinh tế, văn hóa và chính trị của đất nước.",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"hoi_thong_tin\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 1,
+    "instruction": "Kể tên hai đại dương lớn nhất thế giới.",
+    "keywords": [
+      "Thái Bình Dương",
+      "Đại Tây Dương"
+    ],
+    "base_pred": "Hai đại dương lớn nhất thế giới là: 1. **Đại dương Ấn Độ Dương** (Indian Ocean) 2. **Đại dương Thái Bình Dương** (Pacific Ocean)",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu name\"}",
+    "base_score": 0.5,
+    "ft_score": 0.0
+  },
+  {
+    "i": 2,
+    "instruction": "1 km bằng bao nhiêu mét?",
+    "keywords": [
+      "1000"
+    ],
+    "base_pred": "1 km (kilometr) là đơn vị đo lường dài rộng, trong đó ký hiệu **k** được viết tắt từ chữ **kilo**. Để chuyển đổi từ km sang mét, ta nhớ rằng: * 1 km = 1.000 mét. Do đó, 1 km bằng **1.000 mét**.",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\", \"sentiment\": \"trung_tinh\"}",
+    "base_score": 0.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 3,
+    "instruction": "Viết một câu chúc mừng sinh nhật bằng tiếng Việt.",
+    "keywords": [
+      "sinh nhật"
+    ],
+    "base_pred": "Chúc mừng sinh nhật! 🎉 Chúc bạn luôn tràn đầy năng lượng, hạnh phúc và những kỷ niệm đẹp nhất trong đời.",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"sentiment\": \"tieu_cuc\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 4,
+    "instruction": "Dịch sang tiếng Anh: 'Tôi thích đọc sách'.",
+    "keywords": [
+      "read",
+      "book"
+    ],
+    "base_pred": "\"I like reading books.\"",
+    "ft_pred": "{\"intent\": \"reading\", \"urgency\": 0, \"sentiment\": \"positive\", \"urgency\": \"none\"}",
+    "base_score": 1.0,
+    "ft_score": 0.5
+  },
+  {
+    "i": 5,
+    "instruction": "Sông nào dài nhất Việt Nam?",
+    "keywords": [
+      "Đồng Nai",
+      "Mê Kông",
+      "Cửu Long"
+    ],
+    "base_pred": "Sông **Long An** là sông dài nhất Việt Nam, với tổng chiều dài khoảng **1.000 km** (hoặc 620 km nếu tính cả các đoạn sông nhỏ như Long An, Long An và Long An). Sông Long An bắt nguồn từ sông Hồng ở phía Bắc, chảy qua các tỉnh Hà Nội, Thanh Hóa, Nghệ An, Quảng Bình, Quảng Trị, Thừa Thiên Huế và cuối cùng đổ vào biển Đông tại tỉnh Quảng",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tên nước\"}",
+    "base_score": 0.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 6,
+    "instruction": "2 mũ 10 bằng bao nhiêu?",
+    "keywords": [
+      "1024"
+    ],
+    "base_pred": "Để chuyển đổi số từ **2 mũ 10** (hay viết tắt là $2^{10}$) thành một số thập phân, ta cần thực hiện phép tính lũy thừa: $$2^{10} = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2 = 1024$$ Vì $1024$",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 7,
+    "instruction": "Nêu một lợi ích của việc tập thể dục.",
+    "keywords": [
+      "sức khỏe"
+    ],
+    "base_pred": "Tập thể dục là một hoạt động sức khỏe tích cực giúp con người phát triển toàn diện. Một lợi ích nổi bật nhất của việc tập thể dục là **tăng cường sức khỏe thể chất và tinh thần**. Việc tập luyện giúp: * **Giảm nguy cơ mắc các bệnh mãn tính:** Như tim mạch, tiểu đường, và các bệnh về khớp. * **Tăng cường hệ miễn dịch:** Giúp cơ thể chống lại",
+    "ft_pred": "{\"intent\": \"san_pham_tieu\", \"urgency\": \"thap\", \"product\": \"tinh thần\", \"sentiment\": \"tich_cuc\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 8,
+    "instruction": "Ai là tác giả của Truyện Kiều?",
+    "keywords": [
+      "Nguyễn Du"
+    ],
+    "base_pred": "Truyện Kiều là tác phẩm nổi tiếng nhất của nhà văn **Nguyễn Du** (sinh năm 1765). Truyện kể về cuộc đời và những sự kiện của nhân vật Kiều, một người có tài văn chương, giàu có nhưng bị mất đi cả gia đình và cả con cái. Tác phẩm được viết vào khoảng thời gian từ năm 1820 đến 1825, và sau đó được xuất bản lần thứ hai vào năm",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"hoi_thong_tin\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 9,
+    "instruction": "Một năm có bao nhiêu tháng?",
+    "keywords": [
+      "12"
+    ],
+    "base_pred": "Một năm có **12 tháng**. Đây là quy tắc cơ bản nhất trong lịch sử và thời gian: * Tháng 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. Ngoài ra, trong một năm có 365 ngày (hoặc 366 ngày nếu là năm nhuận), mỗi tháng có",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"tieu_cuc\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 10,
+    "instruction": "Nước sôi ở bao nhiêu độ C tại áp suất thường?",
+    "keywords": [
+      "100"
+    ],
+    "base_pred": "Nước sôi ở **100 độ C** tại áp suất thường (thường là áp suất khí quyển trên mặt đất). Đây là một quy luật vật lý cơ bản: khi áp suất của môi trường tăng lên, nhiệt độ cần thiết để nước chuyển từ trạng thái lỏng sang khí (sôi) sẽ giảm đi. Do đó, nước sôi ở các nơi có áp suất cao hơn như các vùng núi cao hoặc trên các tàu biển sẽ sôi ở",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"nước sôi\", \"sentiment\": \"trung_tinh\"}",
+    "base_score": 1.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 11,
+    "instruction": "Kể tên một loại trái cây nhiệt đới.",
+    "keywords": [
+      "xoài",
+      "chuối",
+      "dứa",
+      "sầu riêng",
+      "mít"
+    ],
+    "base_pred": "Một loại trái cây nhiệt đới nổi tiếng và phổ biến nhất là **Cam**. Cam thuộc nhóm cây nhiệt đới, đặc biệt là các loại cam có vỏ màu đỏ hoặc cam hồng, thường được trồng ở các vùng nhiệt đới ẩm ướt như Việt Nam, Thái Lan, Campuchia và các nước Đông Nam Á. Chúng có vị ngọt, thơm và được sử dụng rộng rãi trong món ăn như món cam phở, bánh cam, hoặc làm topping cho các món tráng miệng.",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"product\": \"trái cây\"}",
+    "base_score": 0.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 12,
+    "instruction": "Hãy tóm tắt ý nghĩa của câu 'Có công mài sắt có ngày nên kim'.",
+    "keywords": [
+      "kiên trì",
+      "cố gắng",
+      "bền"
+    ],
+    "base_pred": "Câu nói \"Có công mài sắt, có ngày nên kim\" là một câu tục ngữ rất nổi tiếng trong văn học Việt Nam, được trích từ tác phẩm *Tục ngữ* của nhà văn Nguyễn Du. Ý nghĩa của câu này có thể được tóm tắt qua các khía cạnh chính: 1. **Sự kiên trì và nỗ lực:** Câu nói nhấn mạnh rằng dù có công việc gì lớn lao, dù có thời gian dài hay khó khăn, nếu người",
+    "ft_pred": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"thap\", \"sentiment\": \"tieu_cuc\"}",
+    "base_score": 0.3333,
+    "ft_score": 0.0
+  },
+  {
+    "i": 13,
+    "instruction": "Thành phố Hồ Chí Minh trước đây có tên là gì?",
+    "keywords": [
+      "Sài Gòn"
+    ],
+    "base_pred": "Thành phố Hồ Chí Minh trước đây có tên là **Thành phố Hồ Chí Minh**. Tuy nhiên, tên gọi này đã được thay đổi từ năm 2013. Trước đó, thành phố được gọi là **Thành phố Hồ Chí Minh** (tức là thành phố Hồ Chí Minh). Năm 2013, Chính phủ Việt Nam đã thông qua Luật Thành phố và quy định tên thành phố mới là **Thành phố Hồ Chí Minh**. Hiện",
+    "ft_pred": "{\"intent\": \"hoi_tien\", \"urgency\": \"thap\", \"product\": \"hoi tiền\", \"sentiment\": \"trung_tinh\"}",
+    "base_score": 0.0,
+    "ft_score": 0.0
+  },
+  {
+    "i": 14,
+    "instruction": "Giải thích ngắn gọn quang hợp là gì.",
+    "keywords": [
+      "ánh sáng",
+      "cây"
+    ],
+    "base_pred": "Quang hợp là quá trình sinh học mà **các thực vật, vi khuẩn quang hợp và một số sinh vật khác** sử dụng năng lượng ánh sáng mặt trời để chuyển hóa chất hữu cơ (như glucose) từ CO₂ và nước thành năng lượng và oxy. Trong quá trình này, các tế bào thực vật hấp thụ ánh sáng (thường từ các sắc tố như chlorophyll) để tạo ra các chất hữu cơ, đồng thời giải phóng khí oxy ($",
+    "ft_pred": "{\"intent\": \"trung_tinh\", \"urgency\": \"thap\", \"product\": \"hoi thức tạo năng lượng\", \"sentiment\": \"trung_tinh\"}",
+    "base_score": 0.5,
+    "ft_score": 0.0
+  }
+]
